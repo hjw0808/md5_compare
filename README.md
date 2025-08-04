@@ -1,6 +1,4 @@
 ## md5_compare
-# MD5 Compare
-
 A lightweight GUI tool to verify that each sample’s MD5 file matches a master MD5 list.
 
 ## Description
