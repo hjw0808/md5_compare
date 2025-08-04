@@ -4,7 +4,7 @@ A lightweight GUI tool to verify that each sample’s MD5 file matches a master 
 ## Installation  
 ### Running on macOS
 
-1. Download and unzip the ZIP (or mount the DMG).  
+1. Download and unzip the ZIP.  
 2. Open the `dist` folder.  
 3. Double-click **MD5 Compare.app** to launch the program.  
 
