@@ -25,11 +25,13 @@ Results are saved as a TSV report.
    git clone git@github.com:hjw0808/MD5_compare.git
    cd MD5_compare
 
-2. python3 -m venv .venv
+2.
+  ```
+  python3 -m venv .venv
 source .venv/bin/activate   # macOS/Linux
 .\.venv\Scripts\activate    # Windows PowerShell
-
-3. Command-line (no GUI)
+```
+4. Command-line (no GUI)
 If you prefer a purely CLI workflow, use the companion script:
 
 ```
@@ -37,6 +39,7 @@ python md5_compare.py \
   --master /path/to/master/MD5.txt \
   --raw-root /path/to/01.RawData \
   --out /path/to/md5_report.tsv
+```
 
 
 
