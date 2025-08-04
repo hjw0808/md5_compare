@@ -14,12 +14,12 @@ Case-Sensitive Extension: The file extension match is case-sensitive, so the ext
 
 *(Optional: Drag **MD5 Compare.app** into your Applications folder for easier access.)*
 
-Or 
+Or just simply
 ```python
 python md5_compare_tk.py
 ```
 
-## Description
+## Result Description
 
 This software compares an individual sample’s `MD5.txt` files (one per sample in `01.RawData/*/MD5.txt`) against a single “big” `MD5.txt` (master file) from a root directory. It reports, for each filename:
 
