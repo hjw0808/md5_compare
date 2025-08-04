@@ -2,7 +2,7 @@
 A lightweight GUI tool to verify that each sample’s MD5 file matches a master MD5 list.
 
 ## Installation  
-## Running on macOS
+### Running on macOS
 
 1. Download and unzip the ZIP (or mount the DMG).  
 2. Open the `dist` folder.  
