@@ -31,7 +31,9 @@ source .venv/bin/activate   # macOS/Linux
 
 3. Command-line (no GUI)
 If you prefer a purely CLI workflow, use the companion script:
-```python md5_compare.py \
+
+```
+python md5_compare.py \
   --master /path/to/master/MD5.txt \
   --raw-root /path/to/01.RawData \
   --out /path/to/md5_report.tsv
