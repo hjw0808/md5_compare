@@ -1,6 +1,10 @@
 ## md5_compare
 A lightweight GUI tool to verify that each sample’s MD5 file matches a master MD5 list.
 
+This tool is specifically designed to ensure maximum compatibility with the NOVEGENE pipeline.
+
+Case-Sensitive Extension: The file extension match is case-sensitive, so the extension must be exactly MD5.txt to be recognized.
+
 ## Installation  
 ### Running on macOS
 
