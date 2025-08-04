@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+"""
+md5_compare_tk.py
+
+A GUI tool for comparing MD5 manifests.
+Generated with the assistance of OpenAI’s ChatGPT.
+"""
+
 import re
 from pathlib import Path
 from collections import defaultdict
@@ -5,7 +13,7 @@ import threading
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 
-# ===== MD5 파서 (두 포맷 지원) =====
+# ===== MD5 parser =====
 PAT_HASH_SPACE = re.compile(r"^\s*([0-9a-fA-F]{32})\s+\*?\s*(.+?)\s*$")
 PAT_BSD = re.compile(r"^\s*MD5\s*\((.+?)\)\s*=\s*([0-9a-fA-F]{32})\s*$")
 
@@ -162,9 +170,9 @@ class App(tk.Tk):
         rawroot = Path(self.rawroot_var.get()) if self.rawroot_var.get() else None
         out = self.out_var.get()
         if not master or not master.exists():
-            messagebox.showerror("Error", "Master MD5.txt 경로를 확인하세요."); return
+            messagebox.showerror("Error", "Check out the path of Master MD5.txt."); return
         if not rawroot or not rawroot.exists():
-            messagebox.showerror("Error", "Raw Root 폴더 경로를 확인하세요."); return
+            messagebox.showerror("Error", "Check out the path of Raw Root."); return
         if not out:
             out = str(master.parent / "md5_report.tsv")
             self.out_var.set(out)
