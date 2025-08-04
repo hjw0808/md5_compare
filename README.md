@@ -11,7 +11,9 @@ A lightweight GUI tool to verify that each sample’s MD5 file matches a master 
 *(Optional: Drag **MD5 Compare.app** into your Applications folder for easier access.)*
 
 Or 
-```python md5_compare_tk.py
+```python
+md5_compare_tk.py
+```
 
 ## Description
 
