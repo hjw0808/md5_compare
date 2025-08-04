@@ -1,0 +1,3 @@
+([('MD5 Compare',
+   '/Users/jiwonheo/md5_check_app/dist/MD5 Compare',
+   'EXECUTABLE')],)
