@@ -210,4 +210,6 @@ class App(tk.Tk):
 if __name__ == "__main__":
     App().mainloop()
 
+# © 2025 Jiwon Heo. All rights reserved.
+
 
