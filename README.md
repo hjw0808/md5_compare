@@ -8,7 +8,13 @@ Case-Sensitive Extension: The file extension match is case-sensitive, so the ext
 ## Installation  
 ### Running on macOS
 
-1. Download and unzip the ZIP.  
+When a security warning pops up while trying to open the app, with a message <"MD5 Compare" Not opened>,
+click "Done" or "Cancel" to close the warning dialog.
+Go to System Settings > Privacy & Security.
+Scroll down — you’ll see a message like “[App Name] was blocked from use because it is not from an identified developer.”
+Click the "Open Anyway" button, and authenticate.
+
+1. Once it is downloaded properly, unzip the file.  
 2. Open the `dist` folder.  
 3. Double-click **MD5 Compare.app** to launch the program.  
 
@@ -30,6 +36,7 @@ This software compares an individual sample’s `MD5.txt` files (one per sample 
 - **DUPLICATE_IN_MASTER / DUPLICATE_IN_RAW**: multiple entries for the same filename  
 
 Results are saved as a TSV report.
+
 
 
 
